@@ -6,4 +6,4 @@ import './index.css';
 // Obtenemos el elemento raíz y renderizamos nuestra etiqueta
 const divRoot = document.querySelector('#root');
 
-ReactDOM.render(<PrimeraApp saludo="Hola desde el index.js" />, divRoot);
+ReactDOM.render(<PrimeraApp saludo="Hola desde el index.js" otra={22323} />, divRoot);
