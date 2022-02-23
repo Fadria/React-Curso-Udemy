@@ -36,4 +36,8 @@ PrimeraApp.propTypes = {
     otra: PropTypes.number
 }
 
+PrimeraApp.defaultProps = {
+    otra: 25.22
+}
+
 export default PrimeraApp;
