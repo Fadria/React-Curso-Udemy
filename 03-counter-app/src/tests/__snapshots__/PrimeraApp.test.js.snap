@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <PrimeraApp /> Debe de mostrar <PrimeraApp /> correctamente 1`] = `
+<Fragment>
+  <h1>
+    Hola desde el index.js
+  </h1>
+  <h2>
+    Buenas tardes
+  </h2>
+  <h2>
+    123.45
+  </h2>
+  <h2>
+    25.22
+  </h2>
+  <p>
+    Mi primera aplicación
+  </p>
+  <p>
+    Los booleanos no se imprimen: 
+    <Component />
+  </p>
+  <p>
+    1
+    2
+    3
+    4
+    5
+    6
+  </p>
+  <pre>
+    {
+   "nombre": "Federico",
+   "edad": 25
+}
+  </pre>
+</Fragment>
+`;
