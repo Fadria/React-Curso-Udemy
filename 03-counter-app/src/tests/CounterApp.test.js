@@ -39,4 +39,15 @@ describe("Pruebas en el <CounterApp />", () => {
 
         expect(counterText).toBe('0');
     })
+
+    test('Debe de colocar el valor por defecto con el btn reset', () => 
+    {
+        const wrapper = shallow(<CounterApp value={200}/>);
+
+        const btn1 = wrapper.find('button').at(0).simulate('click');
+        const btn2 = wrapper.find('button').at(1).simulate('click');
+        const counterText = wrapper.find('h2').text().trim();
+
+        expect(counterText).toBe('0');
+    })
 })
