@@ -22,7 +22,7 @@ const PrimeraApp = ({saludo, otra}) => {
             <h1>{saludo}</h1>
             <h2>{string}</h2>
             <h2>{numeros}</h2>
-            <h2>{otra}</h2>
+            <h3>{otra}</h3>
             <p>Mi primera aplicación</p>
             <p>Los booleanos no se imprimen: {true}</p>
             <p>{arreglo}</p>

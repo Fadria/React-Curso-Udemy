@@ -11,9 +11,9 @@ exports[`Pruebas en <PrimeraApp /> Debe de mostrar <PrimeraApp /> correctamente 
   <h2>
     123.45
   </h2>
-  <h2>
+  <h3>
     25.22
-  </h2>
+  </h3>
   <p>
     Mi primera aplicación
   </p>
