@@ -11,7 +11,7 @@ export const GifExpertApp = () => {
     //setcategorias(cts => [...categorias, "Nutrias"]);
   }*/
 
-  const [categorias, setCategorias] = useState(['Gatos'])
+  const [categorias, setCategorias] = useState(['Husky'])
 
   return (
     <>
